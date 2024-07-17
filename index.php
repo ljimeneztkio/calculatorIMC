@@ -18,5 +18,9 @@
         <input type="submit" value="Calcular">
 
     </form>
+    <footer>
+        <hr>
+        <div>Hecho por Luis Enrique Jimenez &copy 2024</div>
+    </footer>
 </body>
 </html>
