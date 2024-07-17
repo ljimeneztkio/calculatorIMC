@@ -7,3 +7,8 @@ body{
     background-color: rgb(168, 200, 13);
     color: white;
 }
+
+input[type=submit]{
+    background-color: blue;
+    color: white;
+}
