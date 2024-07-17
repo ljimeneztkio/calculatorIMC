@@ -6,13 +6,13 @@
     <title>Calculadora de IMC</title>
 </head>
 <body>
-    <form action="">
+    <form action="resultado.php" method="post">
 
         <label for="cms">Ingresa tu altura en Centimetros: </label><br>
         <input type="number" name="cms" id="cms"><br>
         
-        <label for="cms">Ingresa tu peso en Kilogramos: </label><br>
-        <input type="number" name="cms" id="cms"><br>
+        <label for="kgs">Ingresa tu peso en Kilogramos: </label><br>
+        <input type="number" name="kgs" id="kgs"><br>
 
         <input type="submit" value="Calcular">
 
