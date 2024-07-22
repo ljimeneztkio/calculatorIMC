@@ -19,6 +19,13 @@
     <title>Resultado de IMC</title>
 </head>
 <body>
-    
+    <?php if($IMC>30.00) :?>
+        <div> Tienes sobrepeso </div>
+    <? elseif($IMC<25) :?>
+        <div> Estás bajo de peso </div>
+    <? elseif($IMC>25 && $IMC<30) :?>
+        <div> Estás en tu peso ideal </div>
+    <? endif; ?>
+
 </body>
 </html>
