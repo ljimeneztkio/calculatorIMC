@@ -1,5 +1,5 @@
 <?php require 'index.php'; ?>
-
+<?php error_reporting(0); ?>
 <?php
     $mts = $_REQUEST['cms']/100;
     $kgs = $_REQUEST['kgs'];
@@ -21,11 +21,11 @@
 <body>
     <?php if($IMC>30.00) :?>
         <div> Tienes sobrepeso </div>
-    <? elseif($IMC<25) :?>
+    <?php elseif($IMC<25) :?>
         <div> Estás bajo de peso </div>
-    <? elseif($IMC>25 && $IMC<30) :?>
+    <?php elseif($IMC>25 && $IMC<30) :?>
         <div> Estás en tu peso ideal </div>
-    <? endif; ?>
+    <?php endif; ?>
 
 </body>
 </html>
